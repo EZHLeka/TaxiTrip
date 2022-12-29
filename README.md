@@ -25,11 +25,11 @@ spark-sql - "2.3.2"
 
 Таблица поездок такси в Нью-Йорке.
 
-<img src="image/data.jpg" width="500" height="400"/>
+![data](https://github.com/EZHLeka/TaxiTrip/blob/main/image/data.JPG)
 
 Схема
 
-<img src="image/schema.jpg" width="500" height="400"/>
+![schema](https://github.com/EZHLeka/TaxiTrip/blob/main/image/schema.JPG)
 
 
 **<h3 align="left" > Структура проекта </h3>**
@@ -38,7 +38,7 @@ spark-sql - "2.3.2"
 2) Файл с данными yellow_tripdata_2020-01.csv необходимо положить в папку TaxiTrip\src\main\data\
 3) Все формируемые файлы в папке TaxiTrip\src\main\data\
 
-<img src="image/project.jpg" width="200" height="400"/>
+![project](https://github.com/EZHLeka/TaxiTrip/blob/main/image/project.JPG)
 
 
 **<h3 align="left" > Порядок выполнения скрипта </h3>**
@@ -63,8 +63,8 @@ _Скрип выполняет следующее:_
    - Формирует итоговую таблицу
 
    - Сохраняет результат в формат parquet
-
-  <img src="image/result_table.jpg" width="800" height="200"/>
+  
+  ![result_table](https://github.com/EZHLeka/TaxiTrip/blob/main/image/result_table.JPG)
 
 3) - Формирует набор данных для построения графика
    Сохраняет в формат csv
@@ -83,8 +83,8 @@ _В папке_ TaxiTrip\src\main\data\
 
 - с увеличением количества пассажиров, размер чаевых уменьшается.
 
-<img src="image/grafic_dist_value.JPG" width="300" height="200"/> 
-<img src="image/grafic_pas_count.JPG" width="300" height="200"/>
+![grafic_dist_value](https://github.com/EZHLeka/TaxiTrip/blob/main/image/grafic_dist_value.JPG)
+![grafic_pas_count](https://github.com/EZHLeka/TaxiTrip/blob/main/image/grafic_pas_count.JPG)
 
 График по средним и максимальным значениям показывает, что
 
@@ -92,18 +92,9 @@ _В папке_ TaxiTrip\src\main\data\
 
 - незначительное увеличение размера чаевых в крайних точках количества пассажиров (7,8,9)
 
-<img src="image/grafic_agr_value.JPG" width="500" height="400"/>
+![grafic_agr_value](https://github.com/EZHLeka/TaxiTrip/blob/main/image/grafic_agr_value.JPG)
+
 
 По графикам, можно сказать прямой пропорциальной зависимости между размером чаевых и пройденным расстоянием, количеством пассажиров **НЕТ**
 
-<img src="image/grafic_3value.JPG" width="500" height="400"/>
-
-
-
-
-
-
-
-
- 
-
+![grafic_3value](https://github.com/EZHLeka/TaxiTrip/blob/main/image/grafic_3value.JPG)
